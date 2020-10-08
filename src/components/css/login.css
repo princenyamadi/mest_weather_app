@@ -1,0 +1,93 @@
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginContainer{
+    /* background-image: ur\l('https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg'); */
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/18/21/32/dark-1836972_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 145%;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 12px;
+    /* background: white; */
+    box-shadow: 2px 1px 4px 1px rgba(112, 111, 111, 0.781);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loginBox{
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    background: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    align-items: center;
+    
+}
+.loginForm{
+    /* width: 50%; */
+    height: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginHeader{
+    padding: 0 0 20px 0;
+}
+.loginHeader h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(35, 5, 90);
+
+}
+.loginHeader h3{
+    text-align: center;
+    /* font-size: 3.5rem; */
+    color: rgb(222, 214, 236);
+    text-align: left;
+
+}
+.loginHeader .dot{
+    color: rgba(123, 68, 226, 0.377);
+    display: block;
+    text-align: left;
+}
+.loginForm input{
+    height: 45px;
+    margin: 0.3rem 0;
+    padding: 0 40px;
+    border: 1px solid rgba(86, 13, 221, 0.349);
+    border-radius: 9px;
+
+}
+.loginForm input:focus{
+    border: none;
+}
+.loginSubmit{
+    display: flex;
+    justify-content: center;
+}
+
+.loginSubmit input{
+    padding: 0 60px;
+    text-align: center;
+    background: rgb(86, 13, 221);
+    color: #e8e8e8e8;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 4px rgba(15, 15, 15, 0.205);
+    
+}
+
+.loginBtn{
+
+}
