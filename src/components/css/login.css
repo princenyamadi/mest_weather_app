@@ -87,7 +87,15 @@
     box-shadow: 1px 1px 5px 4px rgba(15, 15, 15, 0.205);
     
 }
-
 .loginBtn{
-
+    margin-top: 1rem;
+}
+.loginBtn a{
+    padding:0.75rem 6rem;
+    background-color: rgb(78, 12, 201);
+    border-radius: 12px;
+    color: white;
+    text-decoration:none;
+    
+    
 }

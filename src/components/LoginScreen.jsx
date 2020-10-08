@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+    Link,
+
+}from "react-router-dom";
 import './css/login.css';
 
 function LoginScreen(){
@@ -22,7 +26,11 @@ function LoginScreen(){
                     <input type="text" id="password" className="input password" placeholder="Password"/>
                     </div>
                    <div className="loginSubmit">
-                       <input type="button" value="Login" className="loginBtn"/>
+                       <div className="loginBtn">
+                          <Link to="/home">
+                              <span>Log In</span>
+                          </Link>
+                       </div>
                    </div>
                 </form>
                 </div>
