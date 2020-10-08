@@ -28,7 +28,7 @@ function App() {
       </Switch>
 
 
-      <HomeScreen/>
+    
     </div>
     </Router>
   );
